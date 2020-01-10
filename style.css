@@ -1,0 +1,209 @@
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center,
+nav {
+    text-align: center;
+    color: #cfd8e2;
+}
+
+/***************  header ***********/
+
+.fonas-1 {
+    background-image: url(IMG/earth2.jpg);
+    background-size: 708px 2128px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fonas-2 {
+    background: rgba(45, 95, 149, .7);
+}
+
+.space_text {
+    color: #cfd8e2;
+    margin: 0 auto;
+    width: 600px;
+    padding: 35px;
+}
+
+.space_text h4 {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Helvetica';
+}
+
+.star {
+    font-size: 270%;
+    display: inline-block;
+    padding: 0px 200px;
+    margin: 5px 0px 10px;
+}
+
+.page-title {
+    text-transform: capitalize;
+    margin: 30px;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+header p {
+    color: #cfd8e2;
+    font-size: 1em;
+    margin: 15px 15px;
+}
+
+.button-0 {
+    display: inline-block;
+    text-decoration: none;
+    color: #4d6680;
+    background-color: #cfd8e2;
+    border-radius: 17px;
+    padding: 5px 25px;
+}
+
+.button-0:hover {
+    color: #cfd8e2;
+    background-color: #607e9f;
+
+}
+
+.button-0:active {
+    color: #9fb2c6;
+    background-color: #cfd8e2;
+}
+
+/********* header nav ********/
+.juosta {
+    /*    background-color: #233f5c;*/
+    background-color: #1c324a;
+    color: #cfd8e2;
+}
+
+.li_inline {
+    display: inline-block;
+    margin: 15px;
+}
+
+.nav_li {
+    margin: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.li_inline a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.li_inline h5 {
+    font-size: 115%;
+}
+
+.li_inline i {
+    font-size: 175%;
+    margin: 15px;
+}
+
+.link_name {
+    font-size: 125%;
+}
+
+/************* main ************/
+
+
+.not-opacity {
+    position: relative;
+    z-index: 1;
+}
+
+.fonas-circuit {
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(rgba(45, 95, 149, .9), rgba(45, 95, 149, .7)), url(IMG/circuit3.jpg);
+    opacity: 0.1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2128px;
+    height: 652px;
+}
+
+.content-center {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+article img {
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h3,
+p {
+    color: #4d6680;
+    text-align: left;
+    margin: 15px 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.button-1 {
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    color: #9fb2c6;
+    background-color: #386494;
+    border-radius: 17px;
+    padding: 5px 25px;
+}
+
+.button-1:hover {
+    color: #9fb2c6;
+    background-color: #cfd8e2;
+}
+
+.button-1:active {
+    background-color: #607e9f;
+    color: #cfd8e2;
+}
+
+/*************  footer  **********/
+.footer_li {
+    display: inline-block;
+    width: 370px;
+}
+
+.footer_li i {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.footer_li a {
+    text-decoration: none;
+    color: #cfd8e2;
+}
+
+.footer_ul {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.footer_name {
+    font-size: 120%;
+    margin: 25px 0 25px 0;
+}
+
+.footer_text {
+    margin: 15px 0 35px 0;
+}
